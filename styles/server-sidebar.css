@@ -82,6 +82,7 @@
   font-size: 22px;
   font-weight: 400;
   padding-bottom: 2px;
+  color: rgba(133, 133, 133, 0.816);
 }
 .general-section {
   padding-left: 8px;
@@ -132,4 +133,35 @@
 }
 .programming-text {
   padding-bottom: 4px;
+}
+.server-nav-bar-footer {
+  position: fixed;
+  background-color: rgb(15, 13, 13);
+  bottom: 0;
+  height: 53px;
+  left: 72px;
+  display: flex;
+  width: 240px;
+}
+.my-profile {
+  height: 32px;
+  border-radius: 24px;
+}
+.info {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  font-size: 14px;
+}
+.online-status {
+  line-height: 12px;
+  font-size: 12px;
+  color: rgba(188, 179, 179, 0.816);
+}
+.profile-section {
+  display: flex;
+  width: 120px;
+  margin-top: 10px;
+  margin-left: 8px;
 }

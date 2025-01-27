@@ -1,5 +1,5 @@
 body {
-  padding-bottom: 1000px;
+  /* padding-bottom: 1000px; */
   font-family: gg-sans;
   color: rgba(142, 137, 137, 0.347);
   margin: 0;
@@ -8,4 +8,7 @@ body {
 @font-face {
   font-family: gg-sans;
   src: url(/fonts/ggsans-Medium.ttf);
+}
+p {
+  margin: 0 0;
 }
